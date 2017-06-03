@@ -3,7 +3,7 @@
 
 
 
-a.nounderline:link   
+.a nounderline:link   
 {   
  text-decoration:none;   
 }   
@@ -46,9 +46,27 @@ a.nounderline:link
 
  /* Me he quedado en: https://www.ernestojimenez.net/art/tutorial-creacion-menu-responsive-paso-paso/ */
 
+ body {
+ font-size: 12px;
+ margin: 120px;
+ }
+ 
+ p {
+	font-size: 3em;
+	margin: 3rem;}
+
+h1,h2 {
+	font-size: 8em;
+	margin: 3rem}
+
+h3,h4,h5
+		{
+	font-size: 4em;
+	margin: 3rem}
 
 p .container{
-		color: #000000;}
+		color: #000000;
+}
 
 h1 .container{
 
