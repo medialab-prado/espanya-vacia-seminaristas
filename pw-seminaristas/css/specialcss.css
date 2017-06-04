@@ -1,16 +1,27 @@
 <!-- SpecialCSS -->
 
+/* ÍNDICE 
+
+1. Menú
+2. Etiquetas
+3. Tipografía
+4. Artículos
+
+*/
 
 
 
-.a nounderline:link   
-{   
- text-decoration:none;   
-}   
+
+/*---------------------------------------------------------------- 1. Menú ---------------------------------------------------------------- */
 
 
-/* Menú hamburguesa */
-			
+
+																			
+@font-face {
+    font-family: "Austin-Roman";
+    src: url("/fonts/Austin-Roman.wolff") format("truetype");
+}
+
 .navigation{
   max-height: inherit; 
   position: relative;
@@ -44,18 +55,75 @@
   }
 }
 
- /* Me he quedado en: https://www.ernestojimenez.net/art/tutorial-creacion-menu-responsive-paso-paso/ */
+		/* Me he quedado en: https://www.ernestojimenez.net/art/tutorial-creacion-menu-responsive-paso-paso/ */
 
- body {
- font-size: 12px;
- margin: 120px;
- }
+																	
+																	
+																	
+																
+/*---------------------------------------------------------------- 2. Etiquetas ---------------------------------------------------------------- */
+
+																	
+																	
+/* Botones de la página inicial */
+
+#initial
+{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 12px solid #665c00;
+	font-size: 4px; 
+				 }
+
+/* Botón de Sigue Leyendo */
+				 
+#sigueleyendo				 
+				 
+{
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 12px solid #665c00;
+	font-size: 14px; 
+	background: #fff;
+				 }
+				
+ 
+ #header {
+ margin: 3rem, 3rem, 3rem, 6rem}
+		
+		
+		
+		
+		
+		
+ 
+		
+/*---------------------------------------------------------------- 3. Tipografía ---------------------------------------------------------------- */
+ 
+ 
+ 
+ 
+ 
+ 				 a:link   
+{   
+ text-decoration:none;
+} 
+
+ 
+ @font-face {
+    font-family: "Austin Roman";
+    src: local("C:\Users\Gloo\Documents\GitHub\espanya-vacia-seminaristas\pw-seminaristas\css"), url("/fonts/Austin-Roman.woff") format("woff"), format("truetype");
+}
  
  p {
+	font-family: "Austin Roman"
 	font-size: 3em;
 	margin: 3rem;}
 
 h1,h2 {
+	font-family: "Austin Roman"
 	font-size: 8em;
 	margin: 3rem}
 
@@ -73,9 +141,21 @@ h1 .container{
 			h1   color: #363738;
 				 font-size: 89px; 
 				 }
+
+
+				 
+				 
+				 
+				 
+																/* 4. Artículos */
 		
-h1 .article  {	
-		    font-family: "Madrid-Light", Georgia, "Times New Roman", Times, serif;
+				 
+				 
+				 
+				 
+				 
+				 
+h1 .article  {
 			font-size: 48px;
 			line-height: 1.7;
 			color: #4a4a4a;
@@ -90,7 +170,6 @@ h1 .article {
 				
 				
 		.p {
-		    font-family: "Madrid-Light", Georgia, "Times New Roman", Times, serif;
 			font-size: 1.5rem;
 			line-height: 1.7;
 			color: #4a4a4a;
