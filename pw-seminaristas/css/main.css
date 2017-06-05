@@ -15,7 +15,13 @@
 /*---------------------------------------------------------------- 1. Menú ---------------------------------------------------------------- */
 
 
-
+footer {
+	text-align: center;
+	width: 100%;
+	border-top: black 1px solid;
+	border-style: ridge
+	padding-bottom: 12%;
+}
 	
 																			
 @font-face {
@@ -45,16 +51,9 @@
 @media only screen and (min-width: 37.5em){
 .navigation li{
   display: inline-block; //los elementos van en línea
-}
-}
-
-/* Ocultamos el enlace en pantallas anchas */
-@media only screen and (min-width: 37.5em){
-  .navigation-toggle{
-    width: 0;
-    height: 0;
   }
 }
+
 
 		/* Me he quedado en: https://www.ernestojimenez.net/art/tutorial-creacion-menu-responsive-paso-paso/ */
 
@@ -70,14 +69,14 @@
 
 #initial
 {
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 12px solid #665c00;
-	background: #998a00;
-	font-size: 22px;
+	border-radius: 60px 60px 60px 60px;
+	-moz-border-radius:  40px 40px 60px 60px;
+	-webkit-border-radius:  60px 60px 40px 40px;
+	border: 2px solid #665c00;
+	background: #ffff1;
+	font-size: 28px;
     margin-right: 20px;
-    margin-bottom: 60px;	
+    margin-bottom: 100px;	
 				 }
 
 /* Botón de Sigue Leyendo */
@@ -85,13 +84,12 @@
 #sigueleyendo				 
 				 
 {
-	border-radius: 10px 80% 80% 10px;
-	border: 12px #665c00;
+	border-left: black 1px;
 	font-size: 8px; 
 	background: #fff;
-	padding-left: 20%;
-	padding-right: 20%
-	
+	padding-left: 30%;
+	padding-right: 30%;
+	text-align: center;
 				 }
 				
  
@@ -187,8 +185,3 @@ h1 .article {
 				text-align: center}
 				background-image: url(
 
-footer {
-	text-align: right;
-	width: 100%;
-	border-top: black 3px solid;
-	border-style: ridge;}
