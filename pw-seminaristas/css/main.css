@@ -19,8 +19,8 @@
 	
 																			
 @font-face {
-    font-family: "Austin-Roman";
-    src: url("/fonts/Austin-Roman.wolff") format("truetype");
+    font-family: "Carlito", "Glacial Indifference";
+    src: url("/fonts");
 }
 
 .navigation{
@@ -185,7 +185,7 @@ h1 .article {
 				color: #363738;
 				font-size: 1.5rem;
 				text-align: center}
-				
+				background-image: url(
 
 footer {
 	text-align: right;
