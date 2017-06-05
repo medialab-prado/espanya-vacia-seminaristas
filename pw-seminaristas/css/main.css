@@ -1,6 +1,6 @@
-<!-- SpecialCSS -->
+/*-- SpecialCSS
 
-/* ÍNDICE 
+ÍNDICE 
 
 1. Menú
 2. Etiquetas
@@ -16,6 +16,7 @@
 
 
 
+	
 																			
 @font-face {
     font-family: "Austin-Roman";
@@ -73,7 +74,10 @@
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border: 12px solid #665c00;
-	font-size: 4px; 
+	background: #998a00;
+	font-size: 22px;
+    margin-right: 20px;
+    margin-bottom: 60px;	
 				 }
 
 /* Botón de Sigue Leyendo */
@@ -81,20 +85,35 @@
 #sigueleyendo				 
 				 
 {
-	border-radius: 10px 10px 10px 10px;
-	-moz-border-radius: 10px 10px 10px 10px;
-	-webkit-border-radius: 10px 10px 10px 10px;
-	border: 12px solid #665c00;
-	font-size: 14px; 
+	border-radius: 10px 80% 80% 10px;
+	border: 12px #665c00;
+	font-size: 8px; 
 	background: #fff;
+	padding-left: 20%;
+	padding-right: 20%
+	
 				 }
 				
  
  #header {
- margin: 3rem, 3rem, 3rem, 6rem}
+  width: 80%;
+  height: 60%;
+  border: black 3px solid;
+  margin-left: auto;
+  margin-right: auto;
+  color: ccb800;
+  background-image: url("img/fondoheader.jpg");
+  padding-bottom: 5%;
+  }
 		
+
+				 }		
 		
-		
+#zonabotones
+{
+	padding-bottom: 30%;
+	padding-top: 30%;
+				 }
 		
 		
 		
@@ -105,31 +124,32 @@
  
  
  
- 
- 				 a:link   
+ a:link   
 {   
  text-decoration:none;
+ color: #00000;
 } 
 
  
  @font-face {
-    font-family: "Austin Roman";
-    src: local("C:\Users\Gloo\Documents\GitHub\espanya-vacia-seminaristas\pw-seminaristas\css"), url("/fonts/Austin-Roman.woff") format("woff"), format("truetype");
+    font-family: "Carlito", "GlacialIndifference";
+	
 }
  
  p {
-	font-family: "Austin Roman"
+	font-family: "Carlito";
 	font-size: 3em;
 	margin: 3rem;}
 
 h1,h2 {
-	font-family: "Austin Roman"
-	font-size: 8em;
+	font-family: "GlacialIndifference";
+	font-size: 4em;
 	margin: 3rem}
 
 h3,h4,h5
 		{
-	font-size: 4em;
+	font-family: "GlacialIndifference";
+	font-size: 1em;
 	margin: 3rem}
 
 p .container{
@@ -138,7 +158,7 @@ p .container{
 
 h1 .container{
 
-			h1   color: #363738;
+			color: #363738;
 				 font-size: 89px; 
 				 }
 
@@ -166,11 +186,9 @@ h1 .article {
 				font-size: 1.5rem;
 				text-align: center}
 				
-		h3 {
-				
-				
-		.p {
-			font-size: 1.5rem;
-			line-height: 1.7;
-			color: #4a4a4a;
-			letter-spacing: 0.063rem;}
+
+footer {
+	text-align: right;
+	width: 100%;
+	border-top: black 3px solid;
+	border-style: ridge;}
