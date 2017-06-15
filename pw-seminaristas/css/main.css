@@ -13,10 +13,13 @@
 
 footer {
 	text-align: center;
-	width: 100%;
 	border-top: black 1px solid;
-	border-style: ridge
-	padding-bottom: 12%;
+	border-style: ridge;
+	padding-left: 30%;
+	padding-right: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
 }
 	
 																			
@@ -29,18 +32,42 @@ footer {
 
 div#uno{
 	background-color: #ffe500;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: outset;
+		border-bottom-color: #665c00;
+		border-radius: 35%;
 }
 
 div#dos{
-	background-color: #ccb800;
-}
+	background-color: #ffe500;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: outset;
+		border-bottom-color: #665c00;
+		border-radius: 35%;
+	}
 
 div#tres{
-	background-color: #998a00;
-}
+	background-color: #ffe500;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: outset;
+		border-bottom-color: #665c00;
+		border-radius: 35%;
+	}
 
 div#cuatro{
-	background-color: #665c00;
+	background-color: #ffe500;
+	margin-top: 20%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-style: outset;
+		border-bottom-color: #665c00;
+		border-radius: 35%;
 }
 
 img.icon{
@@ -56,29 +83,30 @@ img.icon{
 }
 
 p.texto{
-	font-size: 4.2em;
+	font-size: 32px;
 	color:white;
 	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 5px;
 	opacity: .6;
 	-webkit-transition: padding-top .50s;
 }
 
 div.contenedor{
 	height:450px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 div.contenedor:hover{
-	height:750px;
-    padding-top: 80px;
+    padding-top: 10%;
+	padding-bottom: 10%;
+	opacity: .0,5;
 	-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6) 
 }
 
 div.contenedor:hover p.texto{
-	padding-top: 30px;
-	opacity: 1;
+	font-size: 64px;
+	-webkit-transition: .50s;
 }
 
 div.contenedor:hover img.icon{
@@ -88,7 +116,12 @@ div.contenedor:hover img.icon{
 																
 /*---------------------------------------------------------------- 2. Etiquetas ---------------------------------------------------------------- */
 
-																	
+#logo{
+
+			padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+margin-bottom: 0;}
 																	
 /* Botones de la página inicial */
 
@@ -109,36 +142,60 @@ div.contenedor:hover img.icon{
 #sigueleyendo				 
 				 
 {
-	border-left: black 1px;
+	border-left: black 20%;
 	font-size: 8px; 
-	background: #fff;
-	padding-left: 30%;
-	padding-right: 30%;
+	color: #665c00;
 	text-align: center;
+	background: #fff;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	border-radius: 5%;
+	padding-top: 0;
+	padding-bottom: 0;
 				 }
-				
+				 
+#sigueleyendo:hover{	
+				 
+	border-left: black 80%;
+	font-size: 12px; 
+	a-color: #665c00;
+	text-align: center;
+	background: #fff;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	border-radius: 5%;
+	padding-top: 0;
+	padding-bottom: 0;
+				 }
  
- #header {
-  width: 100%;
-  height: 60%;
-  color: ccb800;
-  background-image: url("../img/fondoheader.png"); 
-  background-repeat: no-repeat;
-  padding-bottom: 5%;
-  }
-		
+div#header {
 
-				 }		
-		
-#zonabotones
-{
-	 margin-bottom: 300px; 
-	 margin-top: 300px;
-text-align: center;}
-		
-		
-		
- 
+
+  height: 70%;
+	background-image: url("../img/fondoheader1.jpg");	
+	background-repeat: no-repeat;
+  	padding-left: 30%;
+	padding-right: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	/*text*/
+	text-align: right;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 18%;
+	margin-top: 0%;
+	padding-right: 10%;
+	margin-bottom: 0%;
+	position: relative;
+}
 		
 /*---------------------------------------------------------------- 3. Tipografía ---------------------------------------------------------------- */
  
