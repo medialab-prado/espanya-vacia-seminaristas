@@ -1,0 +1,15 @@
+﻿Negro #000000
+Blanco #fff
+Color 1 #ffe500
+Color 2 #ccb800
+Color 3 #998a00
+Color 4 #665c00
+
+Tipografía:
+
+Carlito
+Glacial Indifference
+
+Imágenes:
+
+Header: 1500x500px
