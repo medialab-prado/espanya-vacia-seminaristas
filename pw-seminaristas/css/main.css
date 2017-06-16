@@ -29,46 +29,44 @@ footer {
 /*---------------------------------------------------------------- 1. Menú ---------------------------------------------------------------- */
 
 
+div#loquedebessaber{
+	background-color: #665c00;
+	margin-top: 50%;
+	margin-left: 50%;
+	margin-right: 50%;
+	font-weight: bold;
+	border-style: outset;
+		border-bottom-color: #fff;
+		border-radius: 35%;
+	
+}
 
 div#uno{
-	background-color: #ffe500;
-	margin-top: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-style: outset;
-		border-bottom-color: #665c00;
-		border-radius: 35%;
+	background-color: #665c00;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+		border-radius: 45%;
 }
 
 div#dos{
-	background-color: #ffe500;
-	margin-top: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-style: outset;
-		border-bottom-color: #665c00;
-		border-radius: 35%;
+	background-color: #665c00;
+	font-weight: bold;
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+			border-radius: 45%;
 	}
 
 div#tres{
-	background-color: #ffe500;
-	margin-top: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-style: outset;
-		border-bottom-color: #665c00;
-		border-radius: 35%;
+	background-color: #998a00;
+	margin-top: 10%;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-weight: bold;
+				border-radius: 45%;
 	}
-
-div#cuatro{
-	background-color: #ffe500;
-	margin-top: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
-	border-style: outset;
-		border-bottom-color: #665c00;
-		border-radius: 35%;
-}
 
 img.icon{
 	display: block;
@@ -79,7 +77,6 @@ img.icon{
 	-webkit-border-radius: 50%;
 	-webkit-box-shadow: 0px 0px 0px 30px rgba(155,155,155,0);
 	-webkit-transition:box-shadow .80s;
-
 }
 
 p.texto{
@@ -93,13 +90,14 @@ p.texto{
 }
 
 div.contenedor{
-	height:450px;
-    padding-bottom: 60px;
+	height:410px;
+	padding-top: 0.5%;
 }
 
 div.contenedor:hover{
     padding-top: 10%;
 	padding-bottom: 10%;
+	width:820px;
 	opacity: .0,5;
 	-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6) 
 }
@@ -144,7 +142,7 @@ margin-bottom: 0;}
 {
 	border-left: black 20%;
 	font-size: 8px; 
-	color: #665c00;
+	color: #393939;
 	text-align: center;
 	background: #fff;
 	margin-left: 10%;
@@ -165,34 +163,33 @@ margin-bottom: 0;}
 	background: #fff;
 	margin-left: 10%;
 	margin-right: 10%;
-	margin-top: 5%;
+	margin-top: 10%;
 	margin-bottom: 0;
 	border-radius: 5%;
 	padding-top: 0;
 	padding-bottom: 0;
 				 }
  
-div#header {
-
-
+header#header1 {
   height: 70%;
-	background-image: url("../img/fondoheader1.jpg");	
+	background-image: url("../img/fondoheader2.jpg");	
 	background-repeat: no-repeat;
-  	padding-left: 30%;
 	padding-right: 30%;
-	margin-left: 5%;
-	margin-right: 5%;
-	padding-top: 0;
+	padding-top: 18%;
+	padding-right: 5%;
 	margin-top: 0;
 	padding-bottom: 0;
 	margin-bottom: 0;
-	/*text*/
-	text-align: right;
+	margin-left: 0px;
+    padding-left: 0px;
+	border-radius: 5%;
+	}
+
+header#header1 h1 {
+	text-align: left;
 	color: #fff;
 	text-decoration: none;
-	padding-top: 18%;
 	margin-top: 0%;
-	padding-right: 6%;
 	margin-bottom: 0%;
 	position: relative;
 }
