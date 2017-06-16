@@ -60,12 +60,13 @@ div#dos{
 	}
 
 div#tres{
-	background-color: #998a00;
+	background-color: #665c00;
 	margin-top: 10%;
 	margin-left: 30%;
 	margin-right: 30%;
 	font-weight: bold;
-				border-radius: 45%;
+	border-radius: 45%;
+	margin-bottom: 20%;
 	}
 
 img.icon{
@@ -99,7 +100,7 @@ div.contenedor:hover{
 	padding-bottom: 10%;
 	width:820px;
 	opacity: .0,5;
-	-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6) 
+	-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6);
 }
 
 div.contenedor:hover p.texto{
@@ -116,10 +117,10 @@ div.contenedor:hover img.icon{
 
 #logo{
 
-			padding-top: 0;
+	padding-top: 0;
 	margin-top: 0;
 	padding-bottom: 0;
-margin-bottom: 0;}
+	margin-bottom: 0;}
 																	
 /* Botones de la página inicial */
 
@@ -149,7 +150,7 @@ margin-bottom: 0;}
 	margin-right: 10%;
 	margin-top: 5%;
 	margin-bottom: 0;
-	border-radius: 5%;
+	border-radius: 10%;
 	padding-top: 0;
 	padding-bottom: 0;
 				 }
@@ -158,16 +159,16 @@ margin-bottom: 0;}
 				 
 	border-left: black 80%;
 	font-size: 12px; 
-	a-color: #665c00;
 	text-align: center;
 	background: #fff;
-	margin-left: 10%;
+	margin-left: 7%;
 	margin-right: 10%;
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 0;
 	border-radius: 5%;
 	padding-top: 0;
 	padding-bottom: 0;
+		-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6);
 				 }
  
 header#header1 {
@@ -193,6 +194,36 @@ header#header1 h1 {
 	margin-bottom: 0%;
 	position: relative;
 }
+
+header#header2 {
+  height: 50%;
+	background-image: url("../img/fondoheader3.jpg");	
+	background-repeat: no-repeat;
+	padding-right: 30%;
+	padding-top: 18%;
+	padding-right: 5%;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+    padding-left: 0px;
+	border-radius: 5%;
+	}
+
+header#header2 h1 {
+	font-size: 62px;
+	text-align: center;
+	width: 90%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	position: absolute;
+	background-color: #353535;
+	text-shadow: 2px 2px #000000;
+}
 		
 /*---------------------------------------------------------------- 3. Tipografía ---------------------------------------------------------------- */
  
@@ -211,19 +242,57 @@ header#header1 h1 {
  
  p {
 	font-family: "Carlito";
-	font-size: 3em;
-	margin: 3rem;}
+	font-size: 1.5em;
+	line-height: 1.5;
+	color: #665c00;
+	font-family: "Carlito", "Glacial Indifference";
+	text-align: justify;
+ }
 
-h1,h2 {
-	font-family: "GlacialIndifference";
+h1 {
+	font-family: "Carlito", "Glacial Indifference";
+	font-size: 5em;
+	line-height: 1.5;
+	color: #665c00;
+	font-family: "Carlito", "Glacial Indifference";
+	text-align: center;
+ }
+
+ h2 {
+	font-family: "Carlito", "Glacial Indifference";
+	font-size: 4.5em;
+	line-height: 1.5;
+	color: #665c00;
+	font-family: "Carlito", "Glacial Indifference";
+	text-align: center;
+ }
+ 
+ h3 {
+	font-family: "Carlito", "Glacial Indifference";
 	font-size: 4em;
-	margin: 3rem}
-
-h3,h4,h5
-		{
-	font-family: "GlacialIndifference";
-	font-size: 1em;
-	margin: 3rem}
+	line-height: 1.5;
+	color: #665c00;
+	font-family: "Carlito", "Glacial Indifference";
+	text-align: left;
+ }
+ 
+ h3 {
+	font-family: "Carlito", "Glacial Indifference";
+	font-size: 3em;
+	line-height: 1.5;
+	color: #665c00;
+	font-family: "Carlito", "Glacial Indifference";
+	text-align: left;
+ }
+ 
+ h4 {
+	font-family: "Carlito", "Glacial Indifference";
+	font-size: 1.5em;
+	line-height: 1.5;
+	color: #665c00;
+	font-family: "Carlito", "Glacial Indifference";
+	text-align: left;
+ }
 
 .p container{
 		color: #000000;
@@ -235,35 +304,30 @@ h3,h4,h5
 				 font-size: 89px; 
 				 }
 
-
-				 
+				
+ 
 				 
 				 
 				 
 																/* 4. Artículos */
-		
+
 
 article {
-		background: #fff;
-	padding-left: 30%;
-	padding-right: 30%;
+	background: #fff;
+	padding-left: 10%;
+	padding-right: 10%;
 	text-align: center;
 	}
 		
-		
-.article p{
-			font-size: 16px;
+article.p {
+			font-size: 3em;
 			line-height: 1.5;
 			color: #665c00;
-			}
+			font-family: "Carlito", "Glacial Indifference";
+			}	 
 				 
-				 
-				 
-				 
-.h1 article  {
-			font-size: 48px;
+article.h1 {
+			font-size: 9em;
 			line-height: 1.7;
 			color: #4a4a4a;
 			letter-spacing: 50px;}
-		
-
