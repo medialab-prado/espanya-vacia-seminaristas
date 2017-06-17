@@ -29,17 +29,6 @@ footer {
 /*---------------------------------------------------------------- 1. Menú ---------------------------------------------------------------- */
 
 
-div#loquedebessaber{
-	background-color: #665c00;
-	margin-top: 50%;
-	margin-left: 50%;
-	margin-right: 50%;
-	font-weight: bold;
-	border-style: outset;
-		border-bottom-color: #fff;
-		border-radius: 35%;
-	
-}
 
 div#uno{
 	background-color: #665c00;
@@ -153,7 +142,7 @@ opacity: .0,5;
 	margin-right: 20%;
 	margin-top: 5%;
 	margin-bottom: 0;
-	border-radius: 10%;
+	border-radius: 35%;
 	padding-top: 0;
 	padding-bottom: 0;
 	cursor: pointer;
@@ -169,11 +158,12 @@ opacity: .0,5;
 	margin-right: 15%;
 	margin-top: 5%;
 	margin-bottom: 0%;
-	border-radius: 5%;
+	border-radius: 55%;
 	padding-top: 0;
 	padding-bottom: 0;
 	opacity: .0,5;
 		-webkit-transition:box-shadow .80s;
+		box-shadow: 10px 10px rgba(2,3,1,2);
 				 }
 
  
