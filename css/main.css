@@ -473,7 +473,62 @@ piedefoto {
         {
             left: -1600px;
         }
-        
+		
+        #slider-image-4:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-5:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-6:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+		
+        #slider-image-7:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-8:target ~ .image-holder
+        {
+            left: -800px;
+        }
+		
+        #slider-image-9:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+		
+        #slider-image-10:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-11:target ~ .image-holder
+        {
+            left: -800px;
+        }
+		
+        #slider-image-12:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+		
+        #slider-image-13:target ~ .image-holder
+        {
+            left: -800px;
+        }
+
+        #slider-image-14:target ~ .image-holder
+        {
+            left: -800px;
+        }
+		
         .button-holder
         {
             position: relative;
