@@ -46,7 +46,7 @@ div#uno{
 	font-weight: bold;
 	margin-left: 30%;
 	margin-right: 30%;
-		border-radius: 45%;
+	border-radius: 45%;
 	margin-top: 50%;
 }
 
@@ -56,7 +56,6 @@ div#dos{
 	margin-top: 10%;
 	margin-left: 30%;
 	margin-right: 30%;
-	margin-bottom: 30%;
 			border-radius: 45%;
 	}
 
@@ -97,20 +96,25 @@ div.contenedor{
 
 div.contenedor:hover{
     padding-top: 10%;
+	margin-right: 30%;
 	padding-bottom: 10%;
-	width:820px;
+	width:620px;
 	opacity: .0,5;
 	-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6);
 }
 
 div.contenedor:hover p.texto{
-	font-size: 64px;
+	font-size: 42px;
 	-webkit-transition: .50s;
 }
 
 div.contenedor:hover img.icon{
-	-webkit-box-shadow:0px 0px 0px 0px rgba(55,55,55,.6);
+cursor: pointer;
+opacity: .0,5;
+		-webkit-transition:box-shadow .80s;
+		box-shadow: 10px 10px rgba(9,9,9,9);}
 }
+
 																	
 																
 /*---------------------------------------------------------------- 2. Etiquetas ---------------------------------------------------------------- */
@@ -152,6 +156,7 @@ div.contenedor:hover img.icon{
 	border-radius: 10%;
 	padding-top: 0;
 	padding-bottom: 0;
+	cursor: pointer;
 				 }
 				 
 #sigueleyendo:hover{	
@@ -167,6 +172,8 @@ div.contenedor:hover img.icon{
 	border-radius: 5%;
 	padding-top: 0;
 	padding-bottom: 0;
+	opacity: .0,5;
+		-webkit-transition:box-shadow .80s;
 				 }
 
  
@@ -219,6 +226,66 @@ header#header2 {
 	}
 
 header#header2 h1 {
+	font-size: 62px;
+	text-align: center;
+	width: 90%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	position: absolute;
+	background-color: #353535;
+	text-shadow: 2px 2px #000000;
+}
+
+header#header3 {
+  height: 50%;
+	background-image: url("../img/fondoheader4.jpg");	
+	background-repeat: no-repeat;
+	padding-right: 30%;
+	padding-top: 18%;
+	padding-right: 5%;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+    padding-left: 0px;
+	border-radius: 5%;
+	}
+
+header#header3 h1 {
+	font-size: 62px;
+	text-align: center;
+	width: 90%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	position: absolute;
+	background-color: #353535;
+	text-shadow: 2px 2px #000000;
+}
+
+header#header4 {
+  height: 50%;
+	background-image: url("../img/fondoheader5.jpg");	
+	background-repeat: no-repeat;
+	padding-right: 30%;
+	padding-top: 18%;
+	padding-right: 5%;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+    padding-left: 0px;
+	border-radius: 5%;
+	}
+
+header#header4 h1 {
 	font-size: 62px;
 	text-align: center;
 	width: 90%;
@@ -327,3 +394,31 @@ article {
 	text-align: center;
 	}
 		
+		
+		 /*--------------------------- 5. botones para avanzar en la página ------------------------------*/
+		
+
+		
+/*----- Botón de transición en la página -----------*/
+
+#transicion {
+cursor: pointer;}
+
+#transicion:hover {
+cursor: pointer;
+opacity: .0,5;
+		-webkit-transition:box-shadow .80s;
+		box-shadow: 10px 10px rgba(2,3,1,2);}
+		
+
+/*----- Botón: la vocación religiosa, en cifras -----------*/
+
+
+
+
+
+piedefoto {
+	color: #000000;
+	padding-left: 50%;
+	font-size: 8px;
+}
