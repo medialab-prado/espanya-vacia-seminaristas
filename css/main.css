@@ -147,6 +147,7 @@ opacity: .0,5;
 	padding-bottom: 0;
 	cursor: pointer;
 	transition-duration: 3s, 5s;
+	transition: 5s;
 				 }
 				 
 #sigueleyendo:hover{	
