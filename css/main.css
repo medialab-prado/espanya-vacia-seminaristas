@@ -194,12 +194,13 @@ header#header1 {
 header#header1 h1 {
 	text-align: left;
 	color: #fff;
-	text-decoration: none;
+	text-transform: uppercase;
 	padding-left: 5%;
 	margin-top: 0%;
 	margin-bottom: 0%;
 	position: relative;
 	line-height: 1;
+	font-size: 48px;
 }
 
 header#header2 {
