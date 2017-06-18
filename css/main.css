@@ -289,6 +289,37 @@ header#header4 h1 {
 	background-color: #353535;
 	text-shadow: 2px 2px #000000;
 }
+
+header#header5 {
+  height: 50%;
+	background-image: url("../img/fondoheader6.jpg");	
+	background-repeat: no-repeat;
+	padding-right: 30%;
+	padding-top: 18%;
+	padding-right: 5%;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+    padding-left: 0px;
+	border-radius: 5%;
+	}
+
+header#header5 h1 {
+	font-size: 62px;
+	text-align: center;
+	width: 90%;
+	margin-top: 10%;
+	margin-bottom: 20%;
+	color: #fff;
+	text-decoration: none;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	position: absolute;
+	background-color: #353535;
+	text-shadow: 2px 2px #000000;
+}
+
 		
 /*---------------------------------------------------------------- 3. Tipografía ---------------------------------------------------------------- */
  
